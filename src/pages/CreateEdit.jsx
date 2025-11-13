@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { fetchUser } from "../api/users";
-import { useUsers } from "../context/UserContext";
-import Loading from "../components/Loading";
+import { useUsers } from "../Context/UserContext";
+import Loading from "../Components/Loading";
 
 export default function CreateEdit({ editMode }) {
   const { addUser, editUser } = useUsers();

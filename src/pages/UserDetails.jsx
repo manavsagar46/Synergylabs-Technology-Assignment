@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
-import { useUsers } from "../context/UserContext";
-import Loading from "../components/Loading";
+import { useUsers } from "../Context/UserContext";
+import Loading from "../Components/Loading";
 
 export default function UserDetails() {
   const { id } = useParams();
