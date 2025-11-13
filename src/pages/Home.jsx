@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useUsers } from "../context/UserContext";
-import Loading from "../components/Loading";
-import UserTable from "../components/UserTable";
+import { useUsers } from "../Context/UserContext";
+import Loading from "../Components/Loading";
+import UserTable from "../Components/UserTable";
 
 export default function Home() {
   const { users, loading, error, removeUser } = useUsers();
