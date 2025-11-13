@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useUsers } from "../Context/UserContext";
+import { useUsers } from "../context/UserContext"
 import Loading from "../Components/Loading";
 import UserTable from "../Components/UserTable";
 
